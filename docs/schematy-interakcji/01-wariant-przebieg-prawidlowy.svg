@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1840" height="1180" viewBox="0 0 1840 1180">
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="15" refY="8" orient="auto"><path d="M0,1.5 L15,8 L0,14.5 z" fill="#222"/></marker><marker id="arg" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="15" refY="8" orient="auto"><path d="M0,1.5 L15,8 L0,14.5 z" fill="#8a8a8a"/></marker><filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="2" dy="3" stdDeviation="1.6" flood-color="#000" flood-opacity="0.22"/></filter></defs>
+<rect width="1840" height="1180" fill="#ffffff"/>
+<text x="920.0" y="58" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700" fill="#111">Wariant 1 – przebieg prawidłowy</text>
+<text x="920.0" y="92" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#666">DORA – Developer’s Own Repository Assistant · interakcja zakończona sukcesem</text>
+<polyline points="260.0,255 328.5,255" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="561.5,255 625.0,255" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="865.0,255 925.0,255" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1165.0,255 1225.0,255" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1045,165.0 1045,125 445,125 445,204.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1465.0,255 1645,255 1645,462.2" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="745,435.0 745,390 1115.0,390" fill="none" stroke="#8a8a8a" stroke-width="2.6" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arg)"/>
+<polyline points="1525.0,525 1461.5,525" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1228.5,525 1165.0,525" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="925.0,525 865.0,525" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="625.0,525 265.0,525" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="145,587.8 145,688.0" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="265.0,778 325.0,778" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="145,868.0 145,969.0" fill="none" stroke="#8a8a8a" stroke-width="2.6" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arg)"/>
+<polyline points="565.0,778 625.0,778" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="865.0,778 928.5,778" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1161.5,778 1225.0,778" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1465.0,778 1645,778 1645,587.8" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1345,868.0 1345,949.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1225.0,1000 1165.0,1000" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="925.0,1000 860.0,1000" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<ellipse cx="145" cy="255" rx="115.0" ry="56.599999999999994" fill="#F9B66E" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="145" y="237.4">Start</tspan>
+<tspan x="145" y="261.8">(tryb</tspan>
+<tspan x="145" y="286.2">bezczynności)</tspan>
+</text>
+<polygon points="339.5,204.4 572.5,204.4 550.5,305.6 317.5,305.6" fill="#FDE9A9" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="445" y="237.4">Użytkownik staje</tspan>
+<tspan x="445" y="261.8">przed laptopem;</tspan>
+<tspan x="445" y="286.2">kamera widzi twarz</tspan>
+</text>
+<rect x="625.0" y="204.4" width="240" height="101.19999999999999" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="745" y="237.4">Detekcja twarzy</tspan>
+<tspan x="745" y="261.8">(obraz tylko</tspan>
+<tspan x="745" y="286.2">lokalnie)</tspan>
+</text>
+<polygon points="1045,165.0 1165.0,255 1045,345.0 925.0,255" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">
+<tspan x="1045" y="238.26000000000002">Czy twarz jest</tspan>
+<tspan x="1045" y="261.46000000000004">widoczna ≥ 1 s</tspan>
+<tspan x="1045" y="284.66">i dość duża?</tspan>
+</text>
+<rect x="1225.0" y="192.2" width="240" height="125.6" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1345" y="225.20000000000002">Powitanie: „Cześć,</tspan>
+<tspan x="1345" y="249.60000000000002">jestem DORA…”</tspan>
+<tspan x="1345" y="274.0">+ przykłady pytań</tspan>
+</text>
+<text x="1345" y="299.4" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Zapraszam do rozmowy”</text>
+<rect x="1115.0" y="359.0" width="200" height="62" rx="14" fill="#EFEFEF" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="7 5"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#555">
+<tspan x="1215.0" y="385.42999999999995">→ Wariant 3</tspan>
+<tspan x="1215.0" y="406.12999999999994">(błędne dane)</tspan>
+</text>
+<rect x="1525.0" y="462.2" width="240" height="125.6" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1645" y="495.2">Automatyczny</tspan>
+<tspan x="1645" y="519.6">nasłuch</tspan>
+<tspan x="1645" y="544.0">(mikrofon + VAD)</tspan>
+</text>
+<text x="1645" y="569.4" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Słucham…”</text>
+<polygon points="1239.5,486.0 1472.5,486.0 1450.5,564.0 1217.5,564.0" fill="#FDE9A9" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1345" y="519.5999999999999">„W którym projekcie</tspan>
+<tspan x="1345" y="543.9999999999999">użyłem Dockera?”</tspan>
+</text>
+<rect x="925.0" y="462.2" width="240" height="125.6" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1045" y="495.2">VAD wykrywa koniec</tspan>
+<tspan x="1045" y="519.6">wypowiedzi; STT</tspan>
+<tspan x="1045" y="544.0">tworzy tekst</tspan>
+</text>
+<text x="1045" y="569.4" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Rozpoznaję mowę…”</text>
+<polygon points="745,435.0 865.0,525 745,615.0 625.0,525" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">
+<tspan x="745" y="496.65999999999997">Czy</tspan>
+<tspan x="745" y="519.86">transkrypcja</tspan>
+<tspan x="745" y="543.06">jest</tspan>
+<tspan x="745" y="566.26">poprawna?</tspan>
+</text>
+<rect x="25.0" y="462.2" width="240" height="125.6" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="145" y="495.2">Indeks technologii</tspan>
+<tspan x="145" y="519.6">+ wyszukanie</tspan>
+<tspan x="145" y="544.0">fragmentów (RAG)</tspan>
+</text>
+<text x="145" y="569.4" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Szukam w projektach…”</text>
+<polygon points="145,688.0 265.0,778 145,868.0 25.0,778" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">
+<tspan x="145" y="749.6600000000001">Czy</tspan>
+<tspan x="145" y="772.8600000000001">znaleziono</tspan>
+<tspan x="145" y="796.0600000000001">pasujące</tspan>
+<tspan x="145" y="819.2600000000001">źródła?</tspan>
+</text>
+<rect x="325.0" y="715.2" width="240" height="125.6" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="445" y="748.1999999999999">LLM (Ollama)</tspan>
+<tspan x="445" y="772.5999999999999">składa odpowiedź</tspan>
+<tspan x="445" y="796.9999999999999">z fragmentów</tspan>
+</text>
+<text x="445" y="822.3999999999999" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Myślę…”</text>
+<rect x="625.0" y="727.4" width="240" height="101.19999999999999" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="745" y="760.4">TTS (Piper)</tspan>
+<tspan x="745" y="784.8">syntezuje mowę;</tspan>
+<tspan x="745" y="809.1999999999999">mikrofon wyciszony</tspan>
+</text>
+<polygon points="939.5,715.2 1172.5,715.2 1150.5,840.8 917.5,840.8" fill="#FDE9A9" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1045" y="748.1999999999999">DORA mówi + ruch</tspan>
+<tspan x="1045" y="772.5999999999999">ust; napisy i źródła</tspan>
+<tspan x="1045" y="796.9999999999999">(projekt, plik)</tspan>
+</text>
+<text x="1045" y="822.3999999999999" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Mówię…”</text>
+<polygon points="1345,688.0 1465.0,778 1345,868.0 1225.0,778" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">
+<tspan x="1345" y="749.6600000000001">Czy</tspan>
+<tspan x="1345" y="772.8600000000001">użytkownik</tspan>
+<tspan x="1345" y="796.0600000000001">zadaje kolejne</tspan>
+<tspan x="1345" y="819.2600000000001">pytanie?</tspan>
+</text>
+<rect x="45.0" y="969.0" width="200" height="62" rx="14" fill="#EFEFEF" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="7 5"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#555">
+<tspan x="145" y="995.43">→ Wariant 3</tspan>
+<tspan x="145" y="1016.13">(brak źródeł)</tspan>
+</text>
+<ellipse cx="745" cy="1000" rx="115.0" ry="56.599999999999994" fill="#F9B66E" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="745" y="982.4">Koniec – sukces;</tspan>
+<tspan x="745" y="1006.8">powrót do</tspan>
+<tspan x="745" y="1031.2">bezczynności</tspan>
+</text>
+<rect x="925.0" y="949.4" width="240" height="101.19999999999999" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1045" y="982.4">Wyczyszczenie</tspan>
+<tspan x="1045" y="1006.8">historii rozmowy,</tspan>
+<tspan x="1045" y="1031.2">przerwa 30 s</tspan>
+</text>
+<rect x="1225.0" y="949.4" width="240" height="101.19999999999999" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1345" y="982.4">Pożegnanie:</tspan>
+<tspan x="1345" y="1006.8">„Dzięki za</tspan>
+<tspan x="1345" y="1031.2">rozmowę!”</tspan>
+</text>
+<rect x="1510.0" y="944.6" width="270" height="110.8" rx="6" fill="#FFFFFF" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="1524.0" y="974.73" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#444">
+<tspan x="1524.0" y="974.73">W dowolnej chwili:</tspan>
+<tspan x="1524.0" y="995.4300000000001">• „koniec”, przycisk lub</tspan>
+<tspan x="1524.0" y="1016.13">  odejście → Wariant 2</tspan>
+<tspan x="1524.0" y="1036.83">• awaria usługi → Wariant 4</tspan>
+</text>
+<rect x="1169.6" y="241.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="1195.0" y="261.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
+<rect x="719.6" y="111" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="745.0" y="131" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
+<rect x="839.6" y="376" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="865" y="396" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
+<rect x="419.6" y="511.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="445.0" y="531.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
+<rect x="269.6" y="764.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="295.0" y="784.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
+<rect x="119.6" y="904.5" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="145.0" y="924.5" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
+<rect x="1529.6" y="764.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="1555.0" y="784.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
+<rect x="1319.6" y="894.7" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="1345.0" y="914.7" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
+<text x="1379" y="915" text-anchor="start" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">(cisza &gt; 15 s lub odejście)</text>
+<line x1="40" y1="1100" x2="1800" y2="1100" stroke="#d0d0d0" stroke-width="1.5"/>
+<ellipse cx="45.40000000000009" cy="1138" rx="32" ry="17" fill="#F9B66E" stroke="#3a3a3a" stroke-width="1.8"/>
+<text x="89.40000000000009" y="1144" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Start / koniec</text>
+<rect x="243.80000000000007" y="1121" width="64" height="34" rx="5" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="1.8"/>
+<text x="319.80000000000007" y="1144" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Proces</text>
+<polygon points="415.4000000000001,1121 469.4000000000001,1121 459.4000000000001,1155 405.4000000000001,1155" fill="#FDE9A9" stroke="#3a3a3a" stroke-width="1.8"/>
+<text x="481.4000000000001" y="1144" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Wejście / wyjście</text>
+<polygon points="693.6000000000001,1119 725.6000000000001,1138 693.6000000000001,1157 661.6000000000001,1138" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="1.8"/>
+<text x="737.6000000000001" y="1144" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Decyzja</text>
+<polygon points="841.8000000000002,1121 895.8000000000002,1121 885.8000000000002,1155 831.8000000000002,1155" fill="#F7C9CE" stroke="#3a3a3a" stroke-width="1.8"/>
+<text x="907.8000000000002" y="1144" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Komunikat błędu</text>
+<rect x="1070.8000000000002" y="1121" width="64" height="34" rx="9" fill="#EFEFEF" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="1146.8000000000002" y="1144" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Przejście do innego wariantu</text>
+<text x="1425.6000000000001" y="1144" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „…”</text>
+<text x="1491.6000000000001" y="1144" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Komunikat na pasku stanu (feedback)</text>
+</svg>
