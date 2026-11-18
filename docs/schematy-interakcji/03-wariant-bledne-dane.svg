@@ -8,15 +8,15 @@
 <polyline points="865.0,255 925.0,255" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="1165.0,255 1225.0,255" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="1465.0,255 1525.0,255" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
-<polyline points="745,345.0 745,392 1045,392" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round"/>
-<polyline points="1345,345.0 1345,392 1045,392" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round"/>
-<polyline points="1045,392 1045,455.0" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
-<polyline points="925.0,545 866.5,545" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
-<polyline points="623.5,545 445,545 445,305.6" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
-<polyline points="1045,635.0 1045,733.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
-<polyline points="1645,305.6 1645,455.0" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="745,345.0 745,488.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1345,345.0 1345,405 1045,405 1045,494.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1045,595.6 1045,700.0" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="925.0,790 745,790 745,601.6" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1045,880.0 1045,949.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="923.5,1000 445,1000 445,305.6" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1645,317.8 1645,455.0" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="1525.0,545 1469.0,545" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
-<polyline points="1345,595.6 1345,905 445,905 445,545" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round"/>
+<polyline points="1345,595.6 1345,733.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="1645,635.0 1645,727.2" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="1645,852.8 1645,943.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <ellipse cx="145" cy="255" rx="115.0" ry="56.599999999999994" fill="#F9B66E" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
@@ -35,7 +35,7 @@
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">
 <tspan x="745" y="238.26000000000002">Czy wykryto</tspan>
 <tspan x="745" y="261.46000000000004">mowę</tspan>
-<tspan x="745" y="284.66">w ciągu 8 s?</tspan>
+<tspan x="745" y="284.66">w ciągu 15 s?</tspan>
 </text>
 <rect x="925.0" y="204.4" width="240" height="101.19999999999999" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
@@ -50,24 +50,24 @@
 <tspan x="1345" y="273.06">jest</tspan>
 <tspan x="1345" y="296.26">zrozumiała?</tspan>
 </text>
-<rect x="1525.0" y="204.4" width="240" height="101.19999999999999" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<rect x="1525.0" y="192.2" width="240" height="125.6" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
-<tspan x="1645" y="237.4">RAG przeszukuje</tspan>
-<tspan x="1645" y="261.8">projekty</tspan>
+<tspan x="1645" y="225.20000000000002">Licznik prób = 0;</tspan>
+<tspan x="1645" y="249.60000000000002">RAG przeszukuje</tspan>
+<tspan x="1645" y="274.0">projekty</tspan>
 </text>
-<text x="1645" y="287.2" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Szukam w projektach…”</text>
-<polygon points="634.5,494.4 877.5,494.4 855.5,595.6 612.5,595.6" fill="#F7C9CE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text x="1645" y="299.4" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Szukam w projektach…”</text>
+<ellipse cx="745" cy="545" rx="115.0" ry="56.599999999999994" fill="#F9B66E" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
-<tspan x="745" y="527.4">„Nie usłyszałam /</tspan>
-<tspan x="745" y="551.8">nie zrozumiałam –</tspan>
-<tspan x="745" y="576.1999999999999">powtórz lub wpisz”</tspan>
+<tspan x="745" y="527.4">Pożegnanie,</tspan>
+<tspan x="745" y="551.8">powrót do</tspan>
+<tspan x="745" y="576.1999999999999">bezczynności</tspan>
 </text>
-<polygon points="1045,455.0 1165.0,545 1045,635.0 925.0,545" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
-<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">
-<tspan x="1045" y="516.66">Czy</tspan>
-<tspan x="1045" y="539.86">nieudanych prób</tspan>
-<tspan x="1045" y="563.06">jest mniej</tspan>
-<tspan x="1045" y="586.26">niż 3?</tspan>
+<rect x="925.0" y="494.4" width="240" height="101.19999999999999" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1045" y="527.4">Licznik kolejnych</tspan>
+<tspan x="1045" y="551.8">nieudanych</tspan>
+<tspan x="1045" y="576.1999999999999">prób + 1</tspan>
 </text>
 <polygon points="1232.0,494.4 1480.0,494.4 1458.0,595.6 1210.0,595.6" fill="#F7C9CE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
@@ -82,11 +82,18 @@
 <tspan x="1645" y="563.06">źródła</tspan>
 <tspan x="1645" y="586.26">w projektach?</tspan>
 </text>
-<ellipse cx="1045" cy="790" rx="115.0" ry="56.599999999999994" fill="#F9B66E" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<polygon points="1045,700.0 1165.0,790 1045,880.0 925.0,790" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">
+<tspan x="1045" y="761.6600000000001">Czy było</tspan>
+<tspan x="1045" y="784.8600000000001">mniej niż 3</tspan>
+<tspan x="1045" y="808.0600000000001">kolejne nieudane</tspan>
+<tspan x="1045" y="831.2600000000001">próby?</tspan>
+</text>
+<ellipse cx="1345" cy="790" rx="115.0" ry="56.599999999999994" fill="#F9B66E" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
-<tspan x="1045" y="772.4">Pożegnanie,</tspan>
-<tspan x="1045" y="796.8">powrót do</tspan>
-<tspan x="1045" y="821.1999999999999">bezczynności</tspan>
+<tspan x="1345" y="772.4">Koniec: powrót</tspan>
+<tspan x="1345" y="796.8">do nasłuchu</tspan>
+<tspan x="1345" y="821.1999999999999">(inne pytanie)</tspan>
 </text>
 <rect x="1525.0" y="727.2" width="240" height="125.6" rx="7" fill="#CFE3F8" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
@@ -95,23 +102,28 @@
 <tspan x="1645" y="808.9999999999999">w wariancie 1)</tspan>
 </text>
 <text x="1645" y="834.3999999999999" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-style="italic" font-weight="700" fill="#6A3FB0">▸ „Mówię…”</text>
+<polygon points="934.5,949.4 1177.5,949.4 1155.5,1050.6 912.5,1050.6" fill="#F7C9CE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
+<text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
+<tspan x="1045" y="982.4">„Nie zrozumiałam –</tspan>
+<tspan x="1045" y="1006.8">powtórz lub wpisz</tspan>
+<tspan x="1045" y="1031.2">pytanie”</tspan>
+</text>
 <ellipse cx="1645" cy="1000" rx="115.0" ry="56.599999999999994" fill="#F9B66E" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#1b1b1b">
 <tspan x="1645" y="982.4">Koniec:</tspan>
 <tspan x="1645" y="1006.8">pytanie</tspan>
 <tspan x="1645" y="1031.2">obsłużone</tspan>
 </text>
-<circle cx="1045" cy="392" r="5.5" fill="#222"/>
-<circle cx="445" cy="545" r="5.5" fill="#222"/>
 <rect x="869.6" y="241.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="895.0" y="261.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
 <rect x="1469.6" y="241.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="1495.0" y="261.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
-<rect x="719.6" y="354.5" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="745" y="374.5" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
-<rect x="1319.6" y="354.5" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="1345" y="374.5" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
-<rect x="870.35" y="531.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="895.75" y="551.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
-<rect x="1019.6" y="670.2" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="1045.0" y="690.2" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
+<rect x="719.6" y="402.7" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="745.0" y="422.7" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
+<rect x="1319.6" y="361.0" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="1345" y="381.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
+<rect x="789.6" y="776" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="815" y="796" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
+<rect x="1019.6" y="900.7" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="1045.0" y="920.7" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
 <rect x="1471.6" y="531.0" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="1497.0" y="551.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
 <rect x="1619.6" y="667.1" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="1645.0" y="687.1" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
-<text x="895.0" y="893" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">powrót do nasłuchu – użytkownik może zadać inne pytanie</text>
+<text x="781" y="404" text-anchor="start" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">(cisza nie jest</text>
+<text x="781" y="424" text-anchor="start" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">nieudaną próbą)</text>
 <text x="75" y="700" text-anchor="start" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="16" font-style="italic" font-weight="700" fill="#555">Przykłady:</text>
 <text x="75" y="724" text-anchor="start" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">• cisza po powitaniu</text>
 <text x="75" y="746" text-anchor="start" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">• szum, mowa niewyraźna</text>

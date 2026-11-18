@@ -49,19 +49,20 @@
 | Miejsce | Problem | Reakcja systemu |
 |---|---|---|
 | Start aplikacji | brak kamery lub mikrofonu | tryb zapasowy z przyciskiem i polem tekstowym, komunikat na ekranie (W4) |
-| Nasłuch | cisza, szum, niewyraźna mowa | prośba o powtórzenie; po 3 nieudanych próbach pożegnanie (W3) |
+| Nasłuch | cisza dłuższa niż 15 s | pożegnanie i powrót do bezczynności; cisza nie jest liczona jako nieudana próba (W1, W3) |
+| Rozpoznawanie mowy | szum, niewyraźna mowa | prośba o powtórzenie; po 3 kolejnych nieudanych próbach pożegnanie (W3) |
 | Wyszukiwanie | pytanie spoza wiedzy lub brak danych | uczciwe „nie znalazłam tego w projektach” i przykłady pytań (W3) |
 | Backend / model | brak połączenia | ponowne łączenie co 5 s; po 3 próbach ekran „DORA jest chwilowo niedostępna” (W4) |
-| Generowanie | brak odpowiedzi w 30 s | anulowanie zapytania, zapis w logu, przeprosiny i zachęta do ponownej próby (W4) |
+| Generowanie | brak odpowiedzi w 30 s | anulowanie zapytania, zapis w logu, przeprosiny i powrót do nasłuchu, bez automatycznego ponawiania (W4) |
 | Synteza mowy | TTS nie działa | odpowiedź wyświetlona tylko jako tekst (W4) |
-| Dowolny moment | użytkownik mówi „koniec”, klika „Zakończ” lub odchodzi | przerwanie zadań, pożegnanie, powrót do bezczynności (W2) |
+| Dowolny moment | użytkownik klika „Zakończ”, naciska Esc, odchodzi lub – gdy DORA słucha – mówi „koniec” | przerwanie zadań, pożegnanie, powrót do bezczynności (W2) |
 
 **Alternatywne ścieżki:**
 
 - **Użytkownik woli pisać niż mówić.** Pytanie z pola tekstowego pomija STT i od razu trafia do wyszukiwania.
 - **Użytkownik na chwilę się odwraca.** Próg 5 s sprawia, że DORA nie żegna się przy każdym ruchu głowy.
 - **Użytkownik wraca zaraz po pożegnaniu.** Przez 30 s DORA nie wita go automatycznie, żeby nie powtarzać powitania, ale przycisk „Rozpocznij rozmowę” działa od razu.
-- **Echo.** W czasie mówienia DORY mikrofon jest wyciszony, więc nie odpowiada ona na własne słowa.
+- **Echo.** W czasie mówienia DORY mikrofon jest wyciszony, więc nie odpowiada ona na własne słowa. Dlatego odpowiedź w trakcie przerywa się przyciskiem, klawiszem Esc albo odejściem, a nie głosem.
 
 ---
 
@@ -89,11 +90,11 @@
 
 ![Wariant 2](02-wariant-przerwanie-swiadome.png)
 
-**Scenariusz:** w trakcie rozmowy użytkownik sam decyduje, że kończy. Może to być nawet w połowie odpowiedzi DORY.
+**Scenariusz:** w trakcie rozmowy użytkownik sam decyduje, że kończy. Może to być nawet w połowie odpowiedzi DORY – wtedy przyciskiem, klawiszem Esc albo odchodząc, bo gdy DORA mówi, mikrofon jest wyciszony.
 
 1. Przez cały czas rozmowy system monitoruje trzy sygnały: kamerę, mikrofon i przycisk „Zakończ”.
 2. System sprawdza kolejno trzy warunki:
-   - czy użytkownik powiedział „koniec” lub „dziękuję, to wszystko”;
+   - czy podczas słuchania użytkownik powiedział „koniec” lub „dziękuję, to wszystko”;
    - czy kliknął „Zakończ” albo nacisnął Esc;
    - czy jego twarz zniknęła z kadru na dłużej niż 5 s.
 
@@ -114,11 +115,12 @@
 **Scenariusz:** użytkownik milczy, mówi niewyraźnie, w hałasie albo zadaje pytanie, na które DORA nie zna odpowiedzi (np. „Jaka jutro pogoda?”, „Czy używałem Rusta?”, gdy Rusta nie ma w żadnym projekcie).
 
 1. DORA nasłuchuje („Słucham…”).
-2. Jeśli przez 8 s nie wykryto mowy albo transkrypcja jest pusta lub niepewna, system zwiększa licznik nieudanych prób.
-3. Przy mniej niż 3 nieudanych próbach DORA mówi: „Nie usłyszałam / nie zrozumiałam – powtórz lub wpisz pytanie”. Podświetla przy tym pole tekstowe i wraca do nasłuchu.
-4. Po 3 nieudanych próbach DORA grzecznie się żegna i wraca do bezczynności. Zakłada, że użytkownik nie chce rozmawiać albo warunki są zbyt głośne.
-5. Gdy pytanie zostało zrozumiane, RAG przeszukuje projekty. Jeśli nie ma wiarygodnych źródeł (pytanie spoza zakresu lub technologia nieużywana), DORA nie zmyśla. Odpowiada: „Nie znalazłam tego w projektach – zapytaj np. o …” i wraca do nasłuchu, żeby można było zadać inne pytanie.
-6. Gdy źródła się znajdą, dalszy przebieg jest taki jak w wariancie 1.
+2. Jeśli przez 15 s nie wykryto mowy, DORA uznaje, że użytkownik nie chce już rozmawiać: żegna się i wraca do bezczynności. Cisza nie jest liczona jako nieudana próba, więc DORA nie mówi „nie zrozumiałam” komuś, kto po prostu w milczeniu czyta odpowiedź.
+3. Jeśli mowa była, ale transkrypcja jest pusta lub niepewna (szum, niewyraźna mowa), licznik kolejnych nieudanych prób rośnie o 1.
+4. Przy mniej niż 3 kolejnych nieudanych próbach DORA mówi: „Nie zrozumiałam – powtórz lub wpisz pytanie”. Podświetla przy tym pole tekstowe i wraca do nasłuchu.
+5. Po 3 kolejnych nieudanych próbach DORA grzecznie się żegna i wraca do bezczynności. Zakłada, że warunki są zbyt głośne.
+6. Poprawna transkrypcja zeruje licznik, a RAG przeszukuje projekty. Jeśli nie ma wiarygodnych źródeł (pytanie spoza zakresu lub technologia nieużywana), DORA nie zmyśla. Odpowiada: „Nie znalazłam tego w projektach – zapytaj np. o …” i wraca do nasłuchu, żeby można było zadać inne pytanie.
+7. Gdy źródła się znajdą, dalszy przebieg jest taki jak w wariancie 1.
 
 **Wynik:** nieprawidłowe dane nie zawieszają systemu. Użytkownik zawsze wie, co poszło nie tak i co może zrobić: powtórzyć, wpisać pytanie albo zapytać o coś innego.
 
@@ -133,9 +135,10 @@
 1. Przy starcie aplikacja sprawdza kamerę, mikrofon, backend i model w Ollamie („Uruchamiam…”).
 2. Jeśli kamera lub mikrofon są niedostępne (brak zgody, urządzenie zajęte), DORA działa w trybie zapasowym. Rozmowę rozpoczyna się przyciskiem, a pytania wpisuje w pole tekstowe. Komunikat na ekranie wyjaśnia, co się stało.
 3. Jeśli backend lub model nie odpowiada, system łączy się ponownie co 5 s („Łączę ponownie…”). Gdy połączenie wróci w ciągu 3 prób, rozmowa działa normalnie. W przeciwnym razie ekran pokazuje „DORA jest chwilowo niedostępna”, a system przechodzi w tryb awaryjny i sprawdza usługi co 30 s.
-4. W trakcie rozmowy, jeśli odpowiedź nie nadejdzie w 30 s (np. przeciążony model lub zerwane połączenie), zapytanie jest anulowane, a błąd trafia do logu. DORA mówi: „Przepraszam, mam problem techniczny. Spróbuj ponownie” i wraca do rozmowy.
-5. Jeśli zawiedzie synteza mowy, odpowiedź jest wyświetlana tylko jako tekst z informacją o braku dźwięku. Użytkownik i tak otrzymuje wynik.
-6. Jeśli wszystko działa, DORA odpowiada głosem z napisami i wraca do nasłuchu.
+4. W trakcie rozmowy, jeśli odpowiedź nie nadejdzie w 30 s (np. przeciążony model), zapytanie jest anulowane, a błąd trafia do logu. DORA mówi: „Przepraszam, mam problem techniczny. Spróbuj ponownie” i wraca do nasłuchu. Nie wysyła pytania ponownie sama, więc zawieszony model nie wpędza jej w pętlę przeprosin.
+5. Zerwanie połączenia z backendem w trakcie rozmowy jest wykrywane od razu i uruchamia ponowne łączenie co 5 s, tak jak przy starcie.
+6. Jeśli zawiedzie synteza mowy, odpowiedź jest wyświetlana tylko jako tekst z informacją o braku dźwięku. Użytkownik i tak otrzymuje wynik.
+7. Jeśli wszystko działa, DORA odpowiada głosem z napisami i wraca do nasłuchu.
 
 **Wynik:** awaria jednego elementu nie blokuje całej aplikacji. System degraduje się stopniowo:
 

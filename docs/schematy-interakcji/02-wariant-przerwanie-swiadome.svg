@@ -34,10 +34,9 @@
 </text>
 <polygon points="745,185.0 865.0,275 745,365.0 625.0,275" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">
-<tspan x="745" y="246.66">Czy</tspan>
-<tspan x="745" y="269.86">użytkownik</tspan>
-<tspan x="745" y="293.06">powiedział</tspan>
-<tspan x="745" y="316.26">„koniec”?</tspan>
+<tspan x="745" y="258.26">Czy podczas</tspan>
+<tspan x="745" y="281.46">słuchania padło</tspan>
+<tspan x="745" y="304.65999999999997">„koniec”?</tspan>
 </text>
 <polygon points="1045,185.0 1165.0,275 1045,365.0 925.0,275" fill="#BDE5AE" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
 <text text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1b1b1b">

@@ -20,7 +20,7 @@
 <polyline points="328.5,600 260.0,600" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="1045,690.0 1045,789.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="1165.0,840 1221.0,840" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
-<polyline points="1345,789.4 1345,662.8" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline points="1345,890.6 1345,985 145,985 145,840" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round"/>
 <polyline points="745,690.0 745,789.4" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <polyline points="628.5,840 145,840 145,656.6" fill="none" stroke="#222" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#ar)"/>
 <ellipse cx="145" cy="360" rx="115.0" ry="56.599999999999994" fill="#F9B66E" stroke="#3a3a3a" stroke-width="2.2" filter="url(#sh)"/>
@@ -129,6 +129,7 @@
 <tspan x="1645" y="1071.2">co 30 s)</tspan>
 </text>
 <circle cx="1045" cy="360" r="5.5" fill="#222"/>
+<circle cx="145" cy="840" r="5.5" fill="#222"/>
 <rect x="879.6" y="346" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="905" y="366" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
 <rect x="719.6" y="232.3" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="745.0" y="252.3" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
 <rect x="1469.6" y="346.0" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="1495.0" y="366.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
@@ -139,7 +140,8 @@
 <rect x="567.85" y="586.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="593.25" y="606.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
 <rect x="1019.6" y="725.7" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="1045.0" y="745.7" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
 <rect x="719.6" y="725.7" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="745.0" y="745.7" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
-<text x="1195.0" y="925" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">Zerwane połączenie w trakcie rozmowy = brak odpowiedzi w 30 s</text>
+<text x="595.0" y="975" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">powrót do nasłuchu, bez ponawiania</text>
+<text x="1045.0" y="1035" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="15" font-style="italic" font-weight="700" fill="#555">Zerwanie połączenia w trakcie rozmowy → „Ponowne łączenie co 5 s”</text>
 <line x1="40" y1="1120" x2="1800" y2="1120" stroke="#d0d0d0" stroke-width="1.5"/>
 <ellipse cx="220.80000000000007" cy="1158" rx="32" ry="17" fill="#F9B66E" stroke="#3a3a3a" stroke-width="1.8"/>
 <text x="264.80000000000007" y="1164" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Start / koniec</text>

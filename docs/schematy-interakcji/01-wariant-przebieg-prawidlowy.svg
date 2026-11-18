@@ -150,12 +150,13 @@
 <tspan x="1345" y="1006.8">„Dzięki za</tspan>
 <tspan x="1345" y="1031.2">rozmowę!”</tspan>
 </text>
-<rect x="1510.0" y="944.6" width="270" height="110.8" rx="6" fill="#FFFFFF" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="5 4"/>
-<text x="1524.0" y="974.73" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#444">
-<tspan x="1524.0" y="974.73">W dowolnej chwili:</tspan>
-<tspan x="1524.0" y="995.4300000000001">• „koniec”, przycisk lub</tspan>
-<tspan x="1524.0" y="1016.13">  odejście → Wariant 2</tspan>
-<tspan x="1524.0" y="1036.83">• awaria usługi → Wariant 4</tspan>
+<rect x="1510.0" y="934.25" width="270" height="131.5" rx="6" fill="#FFFFFF" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="1524.0" y="964.38" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="17" font-weight="700" fill="#444">
+<tspan x="1524.0" y="964.38">W dowolnej chwili:</tspan>
+<tspan x="1524.0" y="985.08">• przycisk, Esc, odejście</tspan>
+<tspan x="1524.0" y="1005.78">  lub „koniec” (gdy słucha)</tspan>
+<tspan x="1524.0" y="1026.48">  → Wariant 2</tspan>
+<tspan x="1524.0" y="1047.18">• awaria usługi → Wariant 4</tspan>
 </text>
 <rect x="1169.6" y="241.0" width="50.8" height="28" rx="14" fill="#CDEFC4" stroke="#6DBB5C" stroke-width="1.8"/><text x="1195.0" y="261.0" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4d14">Tak</text>
 <rect x="719.6" y="111" width="50.8" height="28" rx="14" fill="#F9D0D5" stroke="#E07A86" stroke-width="1.8"/><text x="745.0" y="131" text-anchor="middle" font-family="Calibri, Carlito, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#6b1520">Nie</text>
