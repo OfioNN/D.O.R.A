@@ -1,0 +1,33 @@
+# Zależności
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Wyniki budowania i testów
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.pytest_cache/
+.ruff_cache/
+
+# Zmienne środowiskowe (sekrety i ścieżki lokalne)
+.env
+.env.*
+!.env.example
+
+# Logi
+*.log
+logs/
+
+# Edytory i system
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pliki blokady Worda/Excela tworzone przy otwartym dokumencie
+~$*

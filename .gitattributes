@@ -1,0 +1,9 @@
+# Jednolite końce linii (LF) w repozytorium i na dysku, także na Windows
+* text=auto eol=lf
+
+# Pliki binarne: git nie może w nich zmieniać końców linii
+*.png  binary
+*.jpg  binary
+*.webp binary
+*.pdf  binary
+*.docx binary
