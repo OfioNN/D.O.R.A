@@ -34,12 +34,20 @@ docs/       założenia projektu i schematy interakcji
 
 ## Wymagania
 
-- Node.js 22 lub nowszy
+- Node.js 22.12 lub nowszy
 - Python 3.12 (instalowany przez `uv` w Etapie 2)
 - Ollama
 - Kamera i mikrofon (bez nich DORA działa w trybie tekstowym)
 
-Instrukcja uruchomienia pojawi się wraz z Etapem 1.
+## Uruchomienie
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Aplikacja działa pod adresem http://localhost:5173. Szczegóły i lista skryptów: [frontend/README.md](frontend/README.md).
 
 ## Dokumentacja
 

@@ -1,0 +1,24 @@
+/* Minimalny reset. Kolory, typografia i układ ekranu powstaną w Etapie 1, krok 2. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, 'Segoe UI', sans-serif;
+}
+
+.app {
+  display: grid;
+  place-content: center;
+  height: 100%;
+  text-align: center;
+}
